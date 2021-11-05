@@ -1,2 +1,3 @@
 # simple-map-demo
-minimal demo of using the @carbonplan/maps library
+
+Extremely minimal demo of using the [`@carbonplan/maps`](https://github.com/carbonplan/maps) library. 
