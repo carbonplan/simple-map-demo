@@ -15,7 +15,7 @@
     "@carbonplan/colormaps": "^2.0.0",
     "@carbonplan/maps": "^2.0.2",
     "@carbonplan/theme": "^7.0.0",
-    "next": "^11.1.0",
+    "next": "^12.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "theme-ui": "^0.11.1"
