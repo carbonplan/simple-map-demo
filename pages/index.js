@@ -1,4 +1,4 @@
-import { Map, Raster, Line, RegionPicker } from '@carbonplan/maps'
+import { Map, Raster, Line } from '@carbonplan/maps'
 import { useColormap } from '@carbonplan/colormaps'
 
 const Index = () => {
@@ -9,7 +9,9 @@ const Index = () => {
       <Map zoom={2} center={[0, 0]} debug={false}>
         <Line
           color={'white'}
-          source={'https://storage.googleapis.com/carbonplan-share/maps-demo/land'}
+          source={
+            'https://storage.googleapis.com/carbonplan-maps/basemaps/land'
+          }
           variable={'land'}
         />
         <Raster
@@ -18,7 +20,9 @@ const Index = () => {
           display={true}
           opacity={1}
           mode={'texture'}
-          source={'https://storage.googleapis.com/carbonplan-share/maps-demo/2d/tavg'}
+          source={
+            'https://storage.googleapis.com/carbonplan-maps/v2/demo/2d/tavg'
+          }
           variable={'tavg'}
         />
       </Map>
